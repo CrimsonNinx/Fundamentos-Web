@@ -1,12 +1,119 @@
-/*
+    /*
 Estilos da index.html*/
-
-.center {
-    text-align: justify;
-    font-size: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-
-/*
+    
+    #menu li {
+        display: inline;
+        flex-flow: row;
+        padding: 15px;
+        font-size: 30px;
+        text-decoration-line: none;
+        color: white;
+    }
+    
+    body {
+        background: url(../img/fundo.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    
+    #menu li a {
+        text-decoration: none;
+        color: white
+    }
+    
+    #menu li a:hover {
+        color: blue;
+    }
+    
+    .titulo {
+        font-size: 75px;
+        font-family: Arial, Helvetica, sas-serif;
+        font-weight: 100;
+        font-style: italic;
+        color: rgb(172, 12, 12);
+        border-bottom: 5px dashed#aa1717;
+    }
+    
+    .center {
+        text-align: center;
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 100;
+        color: white;
+    }
+    
+    .Trailer {
+        color: rgb(246, 0, 0);
+        font-size: 50px;
+        margin-left: 240px;
+        font-weight: 100;
+    }
+    
+    .container {
+        text-align: justify;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        color: rgb(22, 218, 48);
+        border-bottom: 5px dashed#aa1717;
+    }
+    
+    .p-30 {
+        padding: 30px;
+    }
+    
+    .br-50 {
+        border-radius: 50px;
+    }
+    
+    .wh-300 {
+        width: 800px;
+        height: 500px;
+    }
+    
+    .tm-social {
+        width: 150px;
+        height: 120px;
+    }
+    
+    .mb-50 {
+        margin-bottom: 600px;
+    }
+    
+    .ml-50 {
+        margin-left: 50px;
+    }
+    
+    .mensagem {
+        font-size: 30px;
+        color: rgb(194, 14, 14);
+        font-style: oblique;
+        font-style: inherit;
+        font-family: fantasy;
+    }
+    
+    .endereco {
+        font-size: 30px;
+        color: crimson;
+        padding-left: 100px;
+        margin-bottom: 1px;
+    }
+    
+    .mapa {
+        padding: 60px;
+    }
+    
+    .contato {
+        font-size: 40px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: oblique;
+        font-style: inherit;
+        color: rgb(6, 255, 27);
+        text-align: center;
+        font-weight: 100;
+    }
+    /*
  Estilo da contato.html*/
