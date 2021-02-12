@@ -30,32 +30,40 @@
             <h2 class="mensagem">Mande Uma Mensagem:</h2>
             <form class="mensagem">
                 <label for="nome">Nome</label>
-                <input style="border-radius: 0.5rem;  border-color: rgb(134, 21, 21);" type="text" id="nome">
+                <input type="text" id="nome" onkeyup="validaNome()">
+                <div id="txtNome"></div>
                 <br>
-                <br>
+
                 <label for="email">Email</label>
-                <input style="border-radius: 0.5rem;  border-color:rgb(134, 21, 21);" type="email" id="email">
-                <br>
+                <input type="email" id="email" onkeyup="validaEmail()">
+
+                <div id="txtEmail"></div>
                 <br>
 
                 <label for="Assunto">Assunto</label>
-                <input style="border-radius: 0.5rem;  border-color: rgb(134, 21, 21);" type="text" id="assunto">
                 <br>
-                <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+
+                <textarea name="assunto" id="assunto" cols="60 " rows="5 " onkeyup='validaAssunto()'></textarea>
+                <div id="txtAssunto"></div>
+
+
+
+
+
+
+
                 <br>
-                <br>
-                <button style="border-radius: 0.5rem; border-color: white; padding: 0.5rem; width: 6rem; font-family:Franklin Gothic Medium; 
-                font-size: 1rem; background-color: #FCAF17; color:white; margin-left: 3rem;">Enviar</button>
+                <button onclick="enviar()" style="border-radius: 0.5rem; border-color: white; padding: 0.5rem; width: 6rem; font-family:Franklin Gothic Medium; font-size: 1rem; background-color: #FCAF17; color:white; margin-left: 3rem; ">Enviar</button>
             </form>
         </div>
-        <div class="ml-50px">
+        <div class="ml-50px ">
 
 
-            <p class="endereco">Parque Cemucam R. Mesopotâmia, s/n - Jardim</p>
-            <p class="endereco">Sao Paulo-SP</p>
+            <p class="endereco ">Parque Cemucam R. Mesopotâmia, s/n - Jardim</p>
+            <p class="endereco ">Sao Paulo-SP</p>
 
-            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29246.900628264782!2d-46.83712005615239!3d-23.609260909830358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cfaae835a7dadf%3A0xaac039e5347589b9!2sParque%20Cemucam!5e0!3m2!1spt-BR!2sbr!4v1612906033408!5m2!1spt-BR!2sbr"
-                width="600" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <iframe class="mapa " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29246.900628264782!2d-46.83712005615239!3d-23.609260909830358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cfaae835a7dadf%3A0xaac039e5347589b9!2sParque%20Cemucam!5e0!3m2!1spt-BR!2sbr!4v1612906033408!5m2!1spt-BR!2sbr "
+                width="600 " height="400 " frameborder="0 " style="border:0; " allowfullscreen=" " aria-hidden="false " tabindex="0 " onmousemove="mapaZoom()" onmouseout="mapaNormal()" id="mapa"></iframe>
         </div>
     </div>
 
@@ -63,22 +71,22 @@
 
     <footer>
 
-        <div class="container">
-            <a href="https://www.linkedin.com/in/erick-costa-ferreira-809788189/">
-                <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo DO linkedin">
+        <div class="container ">
+            <a href="https://www.linkedin.com/in/erick-costa-ferreira-809788189/ ">
+                <img class="tm-social p-30 " src="assets/img/linkedin.png " alt="Logo DO linkedin ">
             </a>
-            <a href="https://github.com/CrimsonNinx">
-                <img class="tm-social p-30" src="assets/img/github.png" alt="Logo DO github">
+            <a href="https://github.com/CrimsonNinx ">
+                <img class="tm-social p-30 " src="assets/img/github.png " alt="Logo DO github ">
             </a>
 
 
         </div>
-        <p class="center"> Todos os direitos reservados Naughty Dog &copy</p>
+        <p class="center "> Todos os direitos reservados Naughty Dog &copy</p>
 
 
     </footer>
 
-
+    <script src="assets/js/script.js "></script>
 </body>
 
 </html>

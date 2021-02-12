@@ -38,10 +38,10 @@ Estilos da index.html*/
     
     .center {
         text-align: center;
-        font-size: 30px;
+        font-size: 35px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-weight: 100;
-        color: white;
+        color: rgb(0, 0, 0);
     }
     
     .Trailer {
@@ -105,6 +105,16 @@ Estilos da index.html*/
     .mapa {
         padding: 60px;
     }
+    /*
+ Estilo da contato.html*/
+    /*
+
+    
+ Estilo da contato.html*/
+    
+    #txtAssunto {
+        font-size: 18px;
+    }
     
     .contato {
         font-size: 40px;
@@ -115,5 +125,21 @@ Estilos da index.html*/
         text-align: center;
         font-weight: 100;
     }
-    /*
- Estilo da contato.html*/
+    
+    .borda-Branca {
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-right: 25px;
+        margin-left: 25px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        height: 710px;
+        opacity: 0.9;
+    }
+    
+    #txtNome {
+        color: white;
+        font-size: 30px;
+        border-bottom: 10px;
+        border-color: yellow;
+    }
